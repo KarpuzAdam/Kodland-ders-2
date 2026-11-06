@@ -1,0 +1,11 @@
+gercek = {
+        "hakkımda gerçek bir": "kodlamayı çok seviyorum",
+        "hakkimda gerçek2": "Karpuz çok severim",
+         }
+
+soyle = input("Hakkımda gerçek öürenmek için yaz")
+
+if soyle in gercek.keys():
+    print(gercek[soyle])
+else:
+    print("anlayaamdım sadece hakkımda gerçek bir ve hakkimda gerçek2 yi yazabilirsin")
